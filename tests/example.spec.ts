@@ -14,5 +14,5 @@ test('get started link', async ({ page }) => {
   await page.getByRole('link', { name: 'Selenium' }).click();
 
   // Expects page to have a heading with the name of Installation.
-  await expect(page.getByRole('heading', { name: 'elenium Tutorial Syllabus' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Selenium Tutorial Syllabus' })).toBeVisible();
 });
