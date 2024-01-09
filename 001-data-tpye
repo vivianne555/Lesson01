@@ -1,0 +1,8 @@
+const name = "Tuyet nguyen";
+const age = 18;
+const height = 158;
+const isRich = true;
+const isMale = false;
+const address = null;
+const nameWithspace = "Tuyet Nguyen   ";
+console.log('nameWithspace.trimEnd');
