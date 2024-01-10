@@ -9,10 +9,6 @@
 // "JavaScript We are doing some exercises."
 // "We are doing some JavaScript exercises."
 function insertString(originalString, insertion, index) {
-    if (index > originalString.length) {
-      return "Vị trí chèn vượt quá độ dài của chuỗi";
-    }
-  
     return originalString.substring(0, index) + insertion + originalString.substring(index);
   }
   

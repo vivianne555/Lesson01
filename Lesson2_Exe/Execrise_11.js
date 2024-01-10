@@ -16,7 +16,7 @@ function camelCaseToLowerCaseWithSpace(inputString) {
   function camelCaseToLowerCaseWithoutSpace(inputString) {
     return inputString.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
   }
-  // Sử dụng hàm /g là tìm kiếm all khoảng cách
+  
   let camelCaseString = "camelCaseExample";
   let resultString = camelCaseToLowerCaseWithSpace(camelCaseString);
   console.log(resultString);  // Kết quả: "camel case example"

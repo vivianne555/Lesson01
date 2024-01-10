@@ -15,12 +15,9 @@ function splitStringByLength(a, b) {
     const regex = new RegExp(`.{1,${chunkLength}}`, 'g');
     return a.match(regex) || [];
   }
-  
-  // Sử dụng hàm
   let inputString = "w3resource";
 //   let chunkLength = 5;
 //   let result = splitStringByLength(inputString, chunkLength);
   let result = inputString.slice(index * chunkLength, (index + 1) * chunkLength)
   console.log(result);
-  // Kết quả: [ 'This ', 'is a ', 'sampl', 'e str', 'ing' ]
   

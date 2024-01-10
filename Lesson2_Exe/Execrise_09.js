@@ -7,4 +7,4 @@ for (let i = 0; i < words.length; i++) {
 }
 
 const capitalizedString = words.join(' ');
-console.log(capitalizedString);  // Kết quả: "Viết Hàm Javascript"
+console.log(capitalizedString); 
